@@ -1,5 +1,6 @@
 #section1{
-    background-color: rgb(238, 0, 90);
+    background: url(Spain.jpg) no-repeat center fixed;
+    background-size: cover;
 }
 
 #section2{
@@ -8,7 +9,8 @@
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
+    background: url(NewYork.jpg) no-repeat center fixed;
+    background-size: cover;
 }
 
 .section{
