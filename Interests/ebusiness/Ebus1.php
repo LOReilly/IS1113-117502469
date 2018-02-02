@@ -5,7 +5,7 @@
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="cpst_calc.js"></script>
+        <script type="text/javascript" src="cost_calc.js"></script>
         
     </head>
     
@@ -25,8 +25,8 @@
                   <br/>
                   
                   <label for="aws">
-                  <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-                  AWS @ $100
+                  <input type="radio" id="aws" name="product" onClick="enablebtnProceed()"/>
+                  AWS @ $300
                   </label>
                   
                   <br/>
