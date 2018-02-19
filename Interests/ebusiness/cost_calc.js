@@ -11,10 +11,10 @@ function calcSub(){
         argSubTotal = 200;
     }
     if(document.getElementId("AWS").checked) {
-        argSubtotal = 300;
+        argSubTotal = 300;
     }
     if(document.getElementId("Gmail").checked) {
-        argSubtotal = 400;
+        argSubTotal = 400;
     }    
     display(argSubTotal);
 }
