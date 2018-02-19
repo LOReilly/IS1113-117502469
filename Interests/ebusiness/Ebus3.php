@@ -11,6 +11,10 @@ session_start();
         
         <?php
         // echo session variables from ebus2
+        echo "Welcome " . $_POST["name"]; 
+        
+        echo "Your email address is " . $_POST["email"]; 
+        
         echo "Total is " . $_SESSION["total"] . ".";
         ?>
     </body>
