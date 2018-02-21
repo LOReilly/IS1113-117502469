@@ -7,7 +7,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
         </script>
-<style>
+    
+    <style>
     .button_1{
   height:38px;
   background:#0f847c;
@@ -35,6 +36,7 @@ border: 2px solid #f44336;
      background-color: #f44336;
     color: white; 
  }
+
 </style>
     </head>
     <body>
