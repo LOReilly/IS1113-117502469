@@ -16,11 +16,11 @@ session_start();
     border: 2px solid #008CBA;
     background-color: white; 
     color: black;
-    padding: 10px 16px;
+    padding: 10px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     margin: 4px 2px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -47,11 +47,11 @@ session_start();
                 
                 <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4">
                
-                <button type="Submit" class="success hover" id="btnPurchase" disabled> Proceed with Purchase </button>
+                <button type="Submit" id="btnPurchase" disabled> Proceed with Purchase </button>
                 
             </form>
             <br />
-            <button onClick="validateDetails()">Validate</button>
+            <button class="success hover" onClick="validateDetails()">Validate</button>
         
         <?php
         //session variables
