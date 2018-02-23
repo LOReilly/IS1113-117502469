@@ -14,7 +14,7 @@ session_start();
         // echo session variables from ebus2
         echo "Thank You: ". $_POST["user_name"];
         echo " " . $_POST["last_name"] .  "<br/>";  
-        echo "Your recipt will be emailed to: " . $_POST["email"] . "<br/>"; 
+        echo "Your receipt will be emailed to: " . $_POST["email"] . "<br/>"; 
         echo "Total is &euro; " . $_SESSION["total"] . ".";
         ?>
         </div> 

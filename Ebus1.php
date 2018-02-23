@@ -47,28 +47,28 @@ border: 2px solid #f44336;
         <form method="POST" action="Ebus2.php">
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-                Salesforce @ €100
+                Salesforce @ &euro;100
             </label>
             
             <br/> </br>
             
             <label for="Cloud9">
                 <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
-                C9 @ €200
+                C9 @ &euro;200
             </label>
             
             <br/> </br>
             
             <label for="AWS">
                 <input type="radio" id="aws" name="product" checked onClick="disablebtnProceed()"/>
-                AWS @ €300
+                AWS @ &euro;300
             </label>
             
             <br/> </br>
             
             <label for="Gmail">
                 <input type="radio" id="gmail" name="product" checked onClick="disablebtnProceed()"/>
-                Gmail @ €400
+                Gmail @ &euro;400
             </label>
             
             <br/> </br>
