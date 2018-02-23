@@ -106,7 +106,7 @@ border: 2px solid #f44336;
         </form>
         
         <br/>
-        <button class ="button_1" onClick="calcSub()";"calcDiv()";"calcVat()";>Calculate Cost</button>
+        <button class ="button_1" onClick="calcSub()";"calcDisVatTotal()";>Calculate Cost</button>
         <a rule="button" class="cancel hover" href="Ebus1.php">Clear Choice</a>
         
         
