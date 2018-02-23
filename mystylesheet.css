@@ -15,6 +15,14 @@ body{
   overflow:hidden;
 }
 
+.receipt{
+   margin: auto;
+    width: 20%;
+    border: 2px solid grey;
+   border-color:#DFE2DB;
+    padding: 10px;
+    }
+
 ul{
   margin:0;
   padding:0;

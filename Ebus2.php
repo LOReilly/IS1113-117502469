@@ -40,12 +40,15 @@ session_start();
         
             <form action="Ebus3.php" method="POST">
                 
-                Name: <br/> <input type="text" name="name"> <br/> <br/>
-                
-                E-mail: <br/> <input type="text" name="email"> <br/> <br/>
-                
-                <label for="user_pin">PIN</label> <br/>
-                
+                <label for="Name">Full Name: </label><br/>
+                <input type="text" id="user_name" name="user_name" maxlength="20" placeholder="First.." class="name"><input type="text" id=last_name name="last_name" maxlength=20 placeholder="Last.." class="name">
+                <br/><br/>
+                <label for="email">Email:</label>
+                <br/>
+                <input type="text" name="email">
+                <br/><br/>
+                <label for="user_pin">PIN</label> 
+                <br/>
                 <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4">
                
                 <button type="Submit" id="btnPurchase" disabled> Proceed with Purchase </button>

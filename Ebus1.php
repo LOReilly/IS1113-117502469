@@ -47,55 +47,55 @@ border: 2px solid #f44336;
         <form method="POST" action="Ebus2.php">
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-                Salesforce @ $100
+                Salesforce @ €100
             </label>
             
             <br/> </br>
             
             <label for="Cloud9">
                 <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
-                C9 @ $200
+                C9 @ €200
             </label>
             
             <br/> </br>
             
             <label for="AWS">
                 <input type="radio" id="aws" name="product" checked onClick="disablebtnProceed()"/>
-                AWS @ $300
+                AWS @ €300
             </label>
             
             <br/> </br>
             
             <label for="Gmail">
                 <input type="radio" id="gmail" name="product" checked onClick="disablebtnProceed()"/>
-                Gmail @ $400
+                Gmail @ €400
             </label>
             
             <br/> </br>
             
              <label for="subtotal">
-                Subtotal
+                Subtotal &euro;
                 <input type="text" id="subtotal" value="0.00" name="subtotal" readonly/>
             </label>
             
             <br/> </br>
             
             <label for="discount">
-                Discount @ 5%
+                Discount &euro;
                 <input type="text" id="discount" name="discount" value="0.00" readonly/>
             </label>
             
             <br/> </br>
             
              <label for="vat">
-                VAT @ 10%
+                VAT &euro;
                 <input type="text" id="vat" value="0.00" readonly/>
             </label>
             
             <br/> </br>
             
             <label for="total">
-                Total
+                Total &euro;
                 <input type="text" id="total" name="total" value="0.00" readonly/>
             </label>
             
