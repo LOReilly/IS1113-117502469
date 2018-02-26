@@ -13,6 +13,21 @@
     background-size: cover;
 }
 
+#section4{
+    background: url(spotify.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+#section5{
+    background: url() no-repeat center fixed;
+    background-size: cover;
+}
+
+#section6{
+    background: url() no-repeat center fixed;
+    background-size: cover;
+}
+
 .section{
     text-align: center;
     color: white;
