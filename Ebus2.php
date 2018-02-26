@@ -6,12 +6,12 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
+    
         <title> Enter Details</title>
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
-   
    <style>
    .success{
     border: 2px solid #008CBA;
@@ -26,13 +26,13 @@ session_start();
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
-   
-   } 
-   .hover:hover{
-       background-color: #008CBA;
-    color: white;
-   }
-   </style>
+    
+} 
+.hover:hover{
+     background-color: #008CBA;
+    color: white; 
+ }
+</style>
     </head>
     
     <body>
