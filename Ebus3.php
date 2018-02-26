@@ -7,7 +7,7 @@ session_start();
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     
-        <title>RECEIPT</title>
+        <title>Cloud Services | Receipt</title>
         <link rel="stylesheet" href="mystylesheet.css">
     </head>
     <body>
