@@ -14,7 +14,7 @@ session_start();
      <header>
       <div class="container">
         <div id="branding">
-          <h1><span class="highlight">117502469</span> IS Project</h1>
+          <h1><span class="highlight">117502469</span> Cloud Services</h1>
         </div>
         <nav>
           <ul>
