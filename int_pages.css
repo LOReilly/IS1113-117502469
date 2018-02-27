@@ -14,21 +14,27 @@
 }
 
 #section4{
-    background: url(spotify.png) no-repeat center fixed;
+    background: url(Spotify_Back.jpg) no-repeat center fixed;
     background-size: cover;
 }
 
 #section5{
-    background: url(Netflix_Screen.png) no-repeat center fixed;
+    background: url(Spotify_Back.jpg) no-repeat center fixed;
     background-size: cover;
 }
 
 #section6{
-    background: url(google_drive.jpg) no-repeat center fixed;
+    background: url(Spotify_Back.jpg) no-repeat center fixed;
     background-size: cover;
 }
 
 .section{
     text-align: center;
     color: white;
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+}
+
+.logo{
+ width:230px;
+ height:220px;
 }
