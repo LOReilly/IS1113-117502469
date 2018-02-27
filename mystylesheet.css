@@ -186,6 +186,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 }
 
 aside#newsidebar{
+  border-top:#0f847c 4.5px solid;
   width:100%;
   margin-top:0px;
   border-bottom:#0f847c 4.5px solid;
