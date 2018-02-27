@@ -24,6 +24,7 @@ body{
     padding: 10px;
     }
 
+
 ul{
   margin:0;
   padding:0;
@@ -57,6 +58,14 @@ ul{
    
 .dark{
   padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.textOutline{
+  padding:0px;
   background:#35424a;
   color:#ffffff;
   margin-top:10px;
@@ -176,6 +185,11 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
   padding:5px;
 }
 
+aside#newsidebar{
+  width:100%;
+  margin-top:0px;
+  border-bottom:#0f847c 4.5px solid;
+}
 /* Main-col */
 article#main-col{
   float:left;
