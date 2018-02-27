@@ -9,6 +9,7 @@ session_start();
     
         <title>Cloud Services | Receipt</title>
         <link rel="stylesheet" href="mystylesheet.css">
+        <link rel="icon" href="https://thenounproject.com/term/shopping-cart/106006/">
     </head>
     <body>
      <header>
@@ -36,7 +37,7 @@ session_start();
         </div> 
         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         <footer>
-            <p>117502469 &copy; 2018</p>
+            <p>IS1113 Cloud Services &copy; 2018</p>
         </footer>
     </body>
 </html>    

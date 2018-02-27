@@ -45,7 +45,7 @@ session_start();
                 <br/><br/>
                 <label for="email">Email:</label>
                 <br/>
-                <input type="text" name="email">
+                <input type="email" name="email">
                 <br/><br/>
                 <label for="user_pin">PIN</label> 
                 <br/>
