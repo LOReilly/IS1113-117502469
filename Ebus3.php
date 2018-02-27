@@ -9,7 +9,7 @@ session_start();
     
         <title>Cloud Services | Receipt</title>
         <link rel="stylesheet" href="mystylesheet.css">
-        <link rel="icon" href="https://thenounproject.com/term/shopping-cart/106006/">
+        <link rel="icon" type="image/x-icon" href="shop_logo.ico">
     </head>
     <body>
      <header>
