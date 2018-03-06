@@ -6,7 +6,7 @@
          <meta name="viewport" content="width=device-width">
     
     
-    
+    <!--Refrencing appropriate sources such as the online JQuery library-->
         <title>Select Product</title>
         <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
         <link rel="icon" type="image/x-icon" href="shop_logo.ico">
@@ -60,7 +60,7 @@ border: 2px solid #f44336;
     </header>
         
         
-        
+        <!--Once off styling of a form-->
         <style>
         form{
            margin: auto;
@@ -71,7 +71,7 @@ border: 2px solid #f44336;
             
         }        
         </style>
-        
+        <!--Collecting the selected variable from the product list and passing it onto ebus2-->
         <h3 style="text-align:center;">Select A Product</h3>
         <form method="POST" action="Ebus2.php">
             <label for="salesforce">
@@ -134,7 +134,7 @@ border: 2px solid #f44336;
         </div>
         </form>
         
-        
+        <!--Calling the functions neccessary to calculate the total cost of the product-->
         <br/>
         <div style="text-align:center;">
         <button class ="button_1" onClick="calcSub()";"calcDisVatTotal()";>Calculate Cost</button>

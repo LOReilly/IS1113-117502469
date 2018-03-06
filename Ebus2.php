@@ -62,9 +62,9 @@ session_start();
     
     
         <h3 style="text-align:center;">Please Enter Your Payment Details</h3>
-        
+        <!--Collecting the cost variable from ebus1-->
             <form action="Ebus3.php" method="POST">
-                
+        <!--Creating new variables to be posted to the receipt on ebus3-->   
                 <label for="Name">Full Name: </label><br/>
                 <input type="text" id="user_name" name="user_name" maxlength="20" placeholder="First.." class="name"><input type="text" id=last_name name="last_name" maxlength=20 placeholder="Last.." class="name">
                 <br/><br/>
@@ -83,7 +83,7 @@ session_start();
              
             <button class="success hover" onClick="validateDetails()">Validate</button>
             
-            
+         <!--As the total has to transfer across multiple forms it has to become a session variable for it to reach the receipt-->   
         <?php
         //session variables
         $_SESSION["total"] = $_POST["total"];
