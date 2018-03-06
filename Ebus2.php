@@ -88,7 +88,7 @@ session_start();
         //session variables
         $_SESSION["total"] = $_POST["total"];
         ?>
-        
+        <br/><br/><br/><br/><br/><br/><br/><br/>
         <footer>
         <p>IS1113, Cloud Services &copy; 2018</p>
         </footer>

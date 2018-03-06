@@ -51,6 +51,12 @@ border: 2px solid #f44336;
        <div id="branding">
         <h1><span class="highlight">IS1113 Cloud Services</span></h1>
        </div>
+       <nav>
+          <ul>
+            <li><a href="Terms_Conditions.html">Terms & Conditions</a></li>
+            <li><a href="CloudServices.html">Cloud Homepage</a></li>
+          </ul>
+        </nav>
     </header>
         
         
