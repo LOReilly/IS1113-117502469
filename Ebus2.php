@@ -7,7 +7,11 @@ session_start();
 <html>
     <head>
     
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width">
+    
         <title> Enter Details</title>
+        <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
         <link rel="icon" type="image/x-icon" href="shop_logo.ico">
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -20,12 +24,13 @@ session_start();
     padding: 10px 12px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 14px;
-    margin: 4px 2px;
+    margin: 10px auto;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
+    width: 100px;
     
 } 
 .hover:hover{
@@ -36,7 +41,27 @@ session_start();
     </head>
     
     <body>
-        <h4>Please enter your payment details.</h4>
+    <header>
+      <div class="container">
+       <div id="branding">
+        <h1><span class="highlight">IS1113 Cloud Services</span></h1>
+       </div>
+    </header>
+    
+    <style>
+        form{
+           margin: auto;
+           width: 20%;
+           border: 2px solid grey;
+           border-color:#DFE2DB;
+           padding: 10px; 
+            
+        }        
+        </style>
+    
+    
+    
+        <h3 style="text-align:center;">Please Enter Your Payment Details</h3>
         
             <form action="Ebus3.php" method="POST">
                 
@@ -55,11 +80,17 @@ session_start();
                 
             </form>
             <br />
+             
             <button class="success hover" onClick="validateDetails()">Validate</button>
-        
+            
+            
         <?php
         //session variables
         $_SESSION["total"] = $_POST["total"];
         ?>
+        
+        <footer>
+        <p>IS1113, Cloud Services &copy; 2018</p>
+        </footer>
     </body>
 </html>

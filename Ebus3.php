@@ -35,7 +35,7 @@ session_start();
         echo "Total is &euro; " . $_SESSION["total"] . ".";
         ?>
         </div> 
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         <footer>
             <p>IS1113 Cloud Services &copy; 2018</p>
         </footer>

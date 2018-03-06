@@ -2,7 +2,13 @@
 <html>
     
     <head>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width">
+    
+    
+    
         <title>Select Product</title>
+        <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
         <link rel="icon" type="image/x-icon" href="shop_logo.ico">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
@@ -40,10 +46,27 @@ border: 2px solid #f44336;
 </style>
     </head>
     <body>
-        <h4>Select a product</h4>
+    <header>
+      <div class="container">
+       <div id="branding">
+        <h1><span class="highlight">IS1113 Cloud Services</span></h1>
+       </div>
+    </header>
         
-        </br> </br>
         
+        
+        <style>
+        form{
+           margin: auto;
+           width: 20%;
+           border: 2px solid grey;
+           border-color:#DFE2DB;
+           padding: 10px; 
+            
+        }        
+        </style>
+        
+        <h3 style="text-align:center;">Select A Product</h3>
         <form method="POST" action="Ebus2.php">
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
@@ -102,13 +125,19 @@ border: 2px solid #f44336;
             <br/> </br>
             
             <button  type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
-        
+        </div>
         </form>
         
+        
         <br/>
+        <div style="text-align:center;">
         <button class ="button_1" onClick="calcSub()";"calcDisVatTotal()";>Calculate Cost</button>
         <a rule="button" class="cancel hover" href="Ebus1.php">Clear Choice</a>
+        </div>
         
         
+        <footer>
+        <p>IS1113, Cloud Services &copy; 2018</p>
+        </footer>
     </body>
 </html>
